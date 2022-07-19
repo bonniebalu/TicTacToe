@@ -1,0 +1,47 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body div {
+    text-align: center;
+}    
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#gameNode {
+    text-align: -webkit-center;
+    padding: 5px;
+}
+#gameNode table {
+    display: contents;
+}
+#gameNode table td {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+#gameNode .col-1, #gameNode .col-2 {
+    border-right: 2px solid black;
+}
+#gameNode .col-2, #gameNode .col-3 {
+    border-left: 2px solid black;
+}
+#gameNode .row-1 td, #gameNode .row-2 td {
+    border-bottom: 2px solid black;
+}
+#gameNode .row-2 td, #gameNode .row-3 td {
+    border-top: 2px solid black;
+}
+
+.forTheWin {
+    transition: color 2s;
+    transition-timing-function: ease;
+    color: darkseagreen;
+}
+.forTheLoose {
+    transition: color 2s;
+    transition-timing-function: ease;
+    color: crimson;
+}
